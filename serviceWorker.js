@@ -2,9 +2,9 @@ const staticDevCoffee = "newsapp-site-v1";
 const assets = [
   "/",
   "/index.html",
-  "style.css",
+  "/style.css",
   "/main.js",
-  "/coffee1.jpg",
+  "/logo.jpg",
 ];
 
 self.addEventListener("install", (installEvent) => {

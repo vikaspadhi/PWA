@@ -1,12 +1,3 @@
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function () {
-    navigator.serviceWorker
-      .register("/serviceWorker.js")
-      .then((res) => console.log("service worker registered"))
-      .catch((err) => console.log("service worker not registered", err));
-  });
-}
-
 const BASE_URL = "https://newsapi.org/v2/";
 const KEY = "apiKey=2941c0e4a01f45ada8f9c866cea4b3be";
 

@@ -3,7 +3,7 @@ const assets = [
   "/",
   "/index.html",
   "style.css",
-  "/js/main.js",
+  "/main.js",
   "/coffee1.jpg",
 ];
 
